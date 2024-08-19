@@ -1,0 +1,340 @@
+// Input Form
+.default_input_wrapper {
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 5px 5px 0px 5px;
+}
+
+.default_input_wrapper ._label,
+.active_input_wrapper ._label {
+    margin-left: 12px;
+    margin-bottom: 0px;
+    color: #acacac;
+}
+
+.default_input_wrapper input,
+.active_input_wrapper input {
+    border: none !important;
+    border-bottom: 1px solid white;
+}
+
+.active_input_wrapper {
+    border: 2px solid #78aeff;
+    transition: 0.3s;
+    border-radius: 8px;
+    padding: 5px 5px 0px 5px;
+}
+
+._input_form {
+    font-size: 13px;
+}
+
+// Topbar 
+
+.topbar_logo {
+    height: 40px;
+    width: auto;
+}
+
+.topbar_main {
+    height: 55px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.esearch_wrapper input,
+.efilter_wrapper input {
+    height: 30px !important;
+    width: 20px !important;
+    background-color: #fbfcff;
+    color: #aaaaaa !important;
+    border: none;
+    font-size: 12px;
+}
+
+.esearch_wrapper input {
+    border-right: none !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.efilter_wrapper input {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.esearch_wrapper input:focus,
+.efilter_wrapper input:focus {
+    background-color: #fbfcff;
+    border: none !important;
+    color: #aaaaaa;
+}
+
+.esearch_wrapper .esearch_span,
+.efilter_wrapper .efilter_span {
+    height: 30px !important;
+    border: none !important;
+    background-color: #fbfcff;
+    border: none;
+}
+
+.esearch_wrapper .esearch_span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root,
+.css-1w1rijm-MuiButtonBase-root-MuiButton-root {
+    min-width: 0px;
+}
+
+.efilter_wrapper .efilter_span {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.add_event_btn {
+    width: 330px !important;
+    text-transform: capitalize;
+    font-size: 12px !important;
+}
+
+
+
+
+// List Yellow Theme
+.table_main_list1 thead {
+    position: sticky;
+    top: -11px;
+    z-index: 3;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table_main_list1 th:nth-child(1) {
+    width: 70px;
+    border-top: 7px solid #f5bf00;
+    position: sticky;
+    left: -12px;
+    z-index: 4;
+}
+
+.table_main_list1 th:nth-child(2) {
+    border-top: 7px solid #f5bf00;
+    position: sticky;
+    left: 58px;
+    z-index: 4;
+    text-align: left !important;
+    cursor: pointer;
+}
+
+.table_main_list1 td:nth-child(1) {
+    position: sticky;
+    left: -12px;
+    z-index: 2;
+}
+
+.table_main_list1 td:nth-child(1) .checkbox_btn[type="checkbox"] {
+    margin-top: -4px;
+    margin-left: -20px;
+    height: 18px;
+    width: 18px;
+}
+
+.table_main_list1 td:nth-child(1) .checkbox_btn[type="checkbox"]:checked {
+    background-color: #f5bf00 !important;
+}
+
+
+.table_main_list1 #sticky_col0 {
+    position: sticky;
+    left: 58px;
+    z-index: 2;
+
+}
+
+.table_main_list1 th:last-child {
+    width: 60px;
+}
+
+.table_main_list1 th,
+.table_main_list1 td {
+    width: 120px;
+    font-size: 12px;
+    color: gray !important;
+}
+
+
+/* List style for Mobile */
+.table_main_list1_mobile thead {
+    position: sticky;
+    top: -4px;
+    z-index: 3;
+    background-color: white;
+
+}
+
+.table_main_list1_mobile th:nth-child(1) {
+    width: 70px;
+    border-top: 7px solid #f5bf00;
+    /* position: sticky;
+   left: -2px; */
+}
+.show-all-container{
+    font-size: 12px;
+    color: grey;
+}
+
+.table_main_list1_mobile th:nth-child(2) {
+    width: 24;
+    border-top: 7px solid #f5bf00;
+    text-align: left !important;
+    /* position: sticky;
+   left: 67px; */
+}
+
+.table_main_list1_mobile td:nth-child(1) {
+    /* position: sticky;;
+   left: -2px;
+   z-index: 2; */
+}
+
+.table_main_list1_mobile #sticky_col0 {
+    /* position: sticky;
+   left: 67px;
+   z-index: 2; */
+
+}
+
+.table_main_list1_mobile th:last-child,
+.table_main_list1_mobile td:last-child {
+    width: 60px;
+    position: sticky;
+    // right: -20px;
+    background-color: rgb(245, 241, 241);
+}
+
+.table_main_list1_mobile th,
+.table_main_list1_mobile td {
+    width: 120px;
+    font-size: 12px;
+    color: gray !important;
+}
+
+
+// List Blue Theme
+.table_main_list2 thead {
+    position: sticky;
+    top: -11px;
+    z-index: 3;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table_main_list2 th:nth-child(1) {
+    width: 70px;
+    border-top: 7px solid #548dff;
+    position: sticky;
+    left: -12px;
+    z-index: 4;
+}
+
+.table_main_list2 th:nth-child(2) {
+    border-top: 7px solid #548dff;
+    position: sticky;
+    left: 58px;
+    z-index: 4;
+    text-align: left !important;
+    cursor: pointer;
+}
+
+.table_main_list2 td:nth-child(1) {
+    position: sticky;
+    left: -12px;
+    z-index: 2;
+}
+
+.table_main_list2 td:nth-child(1) .checkbox_btn[type="checkbox"] {
+    margin-top: -4px;
+    margin-left: -20px;
+    height: 18px;
+    width: 18px;
+}
+
+.table_main_list2 td:nth-child(1) .checkbox_btn[type="checkbox"]:checked {
+    background-color: #548dff !important;
+}
+
+
+.table_main_list2 #sticky_col0 {
+    position: sticky;
+    left: 58px;
+    z-index: 2;
+
+}
+
+.table_main_list2 th:last-child {
+    width: 60px;
+}
+
+.table_main_list2 th,
+.table_main_list2 td {
+    width: 120px;
+    font-size: 12px;
+    color: gray !important;
+}
+
+
+/* List style for Mobile */
+.table_main_list2_mobile thead {
+    position: sticky;
+    top: -4px;
+    z-index: 3;
+    background-color: white;
+
+}
+
+.table_main_list2_mobile th:nth-child(1) {
+    width: 70px;
+    border-top: 7px solid #548dff;
+    /* position: sticky;
+   left: -2px; */
+}
+
+.table_main_list2_mobile th:nth-child(2) {
+    width: 24;
+    border-top: 7px solid #548dff;
+    text-align: left !important;
+    /* position: sticky;
+   left: 67px; */
+}
+
+.table_main_list2_mobile td:nth-child(1) {
+    /* position: sticky;;
+   left: -2px;
+   z-index: 2; */
+}
+
+.table_main_list2_mobile #sticky_col0 {
+    /* position: sticky;
+   left: 67px;
+   z-index: 2; */
+
+}
+
+.table_main_list2_mobile th:last-child,
+.table_main_list2_mobile td:last-child {
+    width: 60px;
+    position: sticky;
+    // right: -20px;
+    background-color: rgb(245, 241, 241);
+}
+
+.table_main_list2_mobile th,
+.table_main_list2_mobile td {
+    width: 120px;
+    font-size: 12px;
+    color: gray !important;
+}

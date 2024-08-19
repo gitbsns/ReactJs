@@ -1,0 +1,11 @@
+.sidebar {
+  width: 41px;
+  border: 1.5px solid #0051cb;
+  position: fixed !important;
+  left: 0;
+  height: 100%;
+
+  li[role="menuitem"] {
+    padding-left: 0 !important;
+  }
+}

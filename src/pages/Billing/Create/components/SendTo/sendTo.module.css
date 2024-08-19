@@ -1,0 +1,30 @@
+.sendTo :global(button[aria-label="Country selector"]) {
+  border: none;
+}
+
+.sendTo :global(button[aria-label="Country selector"]:hover) {
+  background: transparent;
+}
+
+.sendTo :global(.react-international-phone-input) {
+  border: none !important;
+  padding: 0 !important;
+  margin-left: 15px !important;
+  background: none !important;
+}
+
+.sendTo :global(.react-international-phone-flag-emoji) {
+  margin-left: 0;
+}
+
+.input {
+  border: none !important;
+  background: none !important;
+  margin-top: -2px;
+}
+
+@media (max-width: 1399.9px) {
+  .sendTo :global(.react-international-phone-flag-emoji) {
+    margin-left: 12px;
+  }
+}

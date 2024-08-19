@@ -1,0 +1,134 @@
+.table :global(.ant-table) {
+  border-radius: 8px !important;
+}
+
+.table :global(.ant-select-selection-item) {
+  margin-top: -5px !important;
+}
+
+.table :global(.ant-table-footer) {
+  padding: 0 !important;
+}
+
+.table :global(.ant-table-body) {
+  height: 180px !important;
+  overflow: auto;
+  overflow-x: hidden !important;
+}
+
+.table :global(.ant-table-cell) {
+  padding: 8px !important;
+}
+
+.table :global(.ant-table-cell)::before {
+  background: none !important;
+}
+
+.table :global(.ant-select-selector) {
+  padding: 0 !important;
+}
+
+.table :global(.ant-table-cell) {
+  vertical-align: baseline;
+}
+
+.table :global(.ant-table-thead) {
+  th {
+    background: #0051cb !important;
+    padding: 10px !important;
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 12px;
+  }
+}
+
+.table
+  :global(
+    :where(.css-dev-only-do-not-override-98ntnt).ant-table-wrapper
+      .ant-table-thead
+      > tr
+      > th:not(:last-child):not(.ant-table-selection-column):not(
+        .ant-table-row-expand-icon-cell
+      ):not([colspan])::before
+  ) {
+  background: none;
+}
+
+.collapse :global(.ant-collapse-header) {
+  padding: 0 !important;
+}
+
+.collapse :global(.ant-collapse-expand-icon) {
+  padding: 0 !important;
+}
+
+.collapse :global(.ant-collapse-content-box) {
+  padding: 0 !important;
+  border-top: 0 !important;
+}
+
+.collapse :global(.ant-collapse-content) {
+  border: 0 !important;
+  background: transparent !important;
+}
+
+.collapse :global(.ant-collapse-header) {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.selectWithLabel :global(.ant-select) {
+  margin-top: -2px;
+}
+
+.input {
+  border: none !important;
+  background: none !important;
+  margin-top: -2px;
+}
+
+.datePicker {
+  margin-top: -2px;
+}
+
+.selectWithGroup :global(.ant-select-selector) {
+  border: 0 !important;
+  background: none !important;
+}
+
+.selectWithGroup :global(.anticon-down) {
+  color: white;
+  padding-right: 5px;
+}
+
+.selectWithGroup :global(.ant-select-selection-item) {
+  font-weight: 500;
+}
+
+.leftTop :global(.ant-select-selector) {
+  padding: 0 !important;
+}
+
+.rightTop :global(.ant-select-selector) {
+  padding: 0 !important;
+}
+
+.totalAmountInput :global(.ant-input-number-input::placeholder) {
+  color: #282020 !important;
+}
+
+.totalAmountInput :global(.ant-input-number-input) {
+  padding-left: 0;
+}
+
+.paymentStatusRed :global(.ant-select-selection-item) {
+  color: rgb(239 68 68);
+}
+
+.paymentStatusGreen :global(.ant-select-selection-item) {
+  color: rgb(34 197 94);
+}
+
+.createBill :global(.ant-picker) {
+  width: 100%;
+}

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* -------------------- components start -------------------- */
+
+@layer components {
+  .btn-main {
+    @apply p-5 bg-main text-white font-medium text-sm;
+  }
+
+  .btn-secondary {
+    @apply p-5 bg-grey-lightest text-grey font-medium text-sm;
+  }
+}
+
+/* -------------------- components end -------------------- */
+
+:root {
+  --main-lightest: #dde6f0;
+  --main: #0051cb;
+  --black: #282020;
+  --grey-lightest: #d3d3d3;
+  --grey-light: #aaa;
+  --grey: #808080;
+  --green: "#47BE9F";
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: #282020;
+  background: #f5f5f5 !important;
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.edit-invoice-columns::-webkit-scrollbar {
+  height: 0 !important;
+  width: 0 !important;
+}
+
+/* -------------------- utilities start -------------------- */
+
+.custom-border {
+  transition: all 0.3s;
+}
+
+.custom-border:hover {
+  border-color: var(--main);
+}
+
+.custom-border:focus-within {
+  border-color: var(--main);
+  box-shadow: 0 0 0 2px rgba(0, 81, 203, 0.2);
+}
+
+/* -------------------- utilities end -------------------- */
+
+/* -------------------- inspect start -------------------- */
+
+.ant-picker-input input::placeholder {
+  color: var(--grey) !important;
+}
+
+.ant-checkbox-checked {
+  .ant-checkbox-inner {
+    background: var(--main) !important;
+    border-color: var(--main) !important;
+  }
+}
+
+.ant-btn-main {
+  background: var(--main) !important;
+  border-radius: 8px !important;
+}
+
+.ant-btn {
+  border-radius: 8px !important;
+}
+
+.ant-btn:hover {
+  color: var(--main) !important;
+  border: 1px solid var(--main) !important;
+}
+
+.ant-btn-main:hover {
+  color: white !important;
+}
+
+.ant-modal-title {
+  font-weight: 500 !important;
+}
+
+.ant-input-number-handler-up,
+.ant-input-number-handler-down {
+  border: none !important;
+}
+
+.ant-modal-root {
+  .ant-btn-primary {
+    background: var(--main);
+  }
+
+  .ant-btn-primary:hover {
+    color: white !important;
+    background: var(--main) !important;
+  }
+}
+
+.ant-select-selection-placeholder {
+  color: var(--grey) !important;
+}
+
+.ant-picker-cell-selected .ant-picker-cell-inner {
+  background: var(--main) !important;
+}
+
+.ant-picker-cell-today .ant-picker-cell-inner::before {
+  border-color: var(--main) !important;
+}
+
+/* -------------------- inspect end -------------------- */

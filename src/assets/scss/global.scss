@@ -1,0 +1,233 @@
+.service_header {
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.service_header_mobile {
+  height: 60px;
+  background-color: white;
+}
+
+.tab_menu {
+  width: auto;
+}
+
+.pt4px {
+  padding-top: 4px;
+}
+.customer-list-container {
+  position: relative;
+  padding-bottom: 60px; /* Adjust according to button height */
+}
+
+.add-customer-button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 8px;
+  background-color: #ffd705;
+  padding: 8px 30px;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.tab_menu button {
+  background-color: transparent;
+  border: none !important;
+  color: gray;
+  font-size: 14px;
+  border-radius: 5px !important;
+}
+
+.tab_menu button:hover {
+  background-color: #f5bf00 !important;
+  color: white;
+}
+
+.tab_menu_mobile {
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray !important;
+  border-radius: 0px !important;
+}
+
+.tab_menu_mobile button {
+  border-radius: 0px;
+}
+
+.tab_menu_mobile button {
+  font-size: 11px;
+  padding: 4px 8px;
+}
+
+.active_tab_mobile {
+  background-color: transparent;
+  border-bottom: 2px solid #f5bf00 !important;
+  color: #f5bf00 !important;
+  font-size: 14px;
+}
+
+.search_btn,
+.filter_btn {
+  height: 35px;
+  font-size: 14px !important;
+  background-color: lightgray !important;
+}
+
+.search_btn:hover,
+.filter_btn:hover {
+  color: rgb(53, 52, 52) !important;
+}
+
+// .form-check-input[type="checkbox"] {
+//    border: 1px solid lightgray !important;
+// }
+
+// .form-check-input[type="checkbox"]:checked {
+//    background-color: #f5bf00 !important;
+//    border: none !important;
+//    box-shadow: none !important;
+//    outline: none !important;
+// }
+
+.form-check-input2[type="checkbox"] {
+  border: 1px solid lightgray !important;
+}
+
+.checkbox_btn2[type="checkbox"] {
+  // margin-top: -4px;
+  // margin-left: -20px;
+  height: 18px;
+  width: 18px;
+}
+.form-check-input2[type="checkbox"]:checked {
+  background-color: #5599ff !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.theme_btn_color {
+  background-color: #f5bf00 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.theme_icon_color {
+  color: #f5bf00 !important;
+}
+
+.small_btn {
+  height: 30px !important;
+  font-size: 12px !important;
+  background-color: #f5bf00 !important;
+  color: white !important;
+  border-radius: 5px !important;
+}
+
+// button {
+//    border: none !important;
+//    outline: none !important;
+//    box-shadow: none !important;
+// }
+
+.inventory_service {
+  max-height: 92vh !important;
+  overflow-y: scroll !important;
+  padding-bottom: 100px !important;
+}
+
+.checkbox_btn[type="checkbox"]:checked {
+  background-color: #f5bf00 !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+// yelllow theme checkbox
+
+.blue_theme_checkbox .form-check-input[type="checkbox"]:checked {
+  background-color: #548dff !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.MuiPagination-ul {
+  margin-left: 43px !important;
+  // margin-left: 45px !important;
+  display: flex !important;
+  // margin-top: 20px !important;
+}
+
+button[aria-label="Go to previous page"] {
+  margin-left: -120px !important;
+}
+
+.MuiPagination-ul li:last-child {
+  order: -1 !important;
+  margin-right: 45px !important;
+}
+
+// .css-lqq3n7-MuiButtonBase-root-MuiPaginationItem-root.Mui-disabled {
+//   opacity: 1 !important;
+// }
+
+.css-9nek4c-MuiPagination-root
+  .css-lqq3n7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  color: #6a6a6a !important;
+}
+
+.css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon {
+  color: #ffd705 !important;
+}
+
+.css-1gywuxd-MuiInputBase-root-MuiOutlinedInput-root {
+  padding-left: 7px !important;
+  padding-right: 10px !important;
+}
+
+.css-1jt6xub-MuiGrid-root {
+  padding-top: 16px !important;
+}
+
+.header-searchbar {
+  .css-1gywuxd-MuiInputBase-root-MuiOutlinedInput-root {
+    padding-right: 3px !important;
+    padding-left: 7px;
+  }
+}
+
+#input-with-icon-textfield-search {
+  font-size: 14px !important;
+  margin-left: -5px;
+}
+
+#input-with-icon-textfield-search::placeholder {
+  font-size: 14px !important;
+}
+
+.MuiPaper-elevation {
+  background: #fbfcff !important;
+}
+
+// .MuiDrawer-root,
+// .offcanvas-backdrop,
+// .offcanvas {
+//   z-index: 999999 !important;
+// }
+
+div[role="presentation"] {
+  z-index: 9999999 !important;
+}
+
+// .offcanvas-backdrop,
+// div[role="dialog"] {
+//   z-index: 99999 !important;
+// }

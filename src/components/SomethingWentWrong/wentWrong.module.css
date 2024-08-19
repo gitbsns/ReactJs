@@ -1,0 +1,3 @@
+.wentWrong .ant-result-title::after {
+  content: none;
+}
