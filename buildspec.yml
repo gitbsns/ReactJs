@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18 # Specify Node.js version compatible with your project
+    commands:
+      - echo Installing dependencies...
+      - npm install
+      - npm install -g eslint # If ESLint is needed globally for linting
+  pre_build:
+    commands:
+      - echo Linting code...
+      - npm run lint # Run linting as defined in your package.json
+  build:
+    commands:
+      - echo Building the project...
+      - npm run build # Run Vite build process as defined in package.json
+  post_build:
+    commands:
+      - echo Build completed successfully
+      - ls -alh # List files in the build directory to check output
+
+artifacts:
+  files:
+    - '**/*' # Adjust based on which files need to be included in the artifact
+  base-directory: dist # Assuming Vite output is in the "dist" folder (can be customized in Vite config)
